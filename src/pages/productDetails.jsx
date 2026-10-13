@@ -35,7 +35,7 @@ export default function ProductDetails () {
                             <img src={findProduct.image} alt="" className=" w-full h-full rounded-xl transition ease-in-out delay-150 hover:scale-[1.01] duration-300 cursor-pointer"/>
                             </div>
                         </div>
-                        <div className=" mt-4 mx-auto sm:w-[70%]">
+                        <div className=" mt-4 mx-auto sm:w-[70%] pb-4">
                             <div className="">
                             <p className="text-[0.80rem] text-gray-400 p-2 pt-0">{findProduct.category}</p>
                             <h1 className=" text-2xl sm:text-[2rem] font-bold text-white p-2">{findProduct.name}</h1>                           

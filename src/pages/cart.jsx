@@ -12,7 +12,7 @@ export default function cart () {
     return (
         <section id="cart">
             
-            <div className="w-screen ">
+            <div className="w-screen pb-4">
                 <div className=" w-[80%] mx-auto my-3">
                     <Link to={"/"}>
                          <p className="font-semibold text-yellow-500 bg-transparent "><ArrowBackIcon/>Back to Home</p>
